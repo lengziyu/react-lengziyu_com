@@ -1,0 +1,71 @@
+.section{
+  overflow: hidden;
+  margin: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f7f7f7;
+}
+.sayLeft{
+  width: 13%;
+  min-width: 4.6rem;
+  float: left;
+  position: relative;
+  padding-bottom: .4rem;
+}
+.sayRight{
+  width: 74%;
+  float: left;
+}
+.avatar{
+  min-width: 4.6rem;
+  min-height: 4.6rem;
+  margin: 0 auto;
+  margin-top: .3rem;
+  background: url('../../assets/images/me.png') no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+}
+.name{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  span{
+    background-color: #ff6d1f;
+    color: #fff;
+    height: .8rem;
+    padding: .2rem .2rem;
+    font-size: .8rem;
+    line-height: .9rem;
+    display: inline-block;
+  }
+}
+.info{
+  float: left;
+  padding-left: 1rem;
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.7rem;
+    width:0;
+    height:0;
+    font-size:0;
+    border:solid 8px;
+    border-color: #fff #dfeaf1 #fff #fff;
+  }
+}
+.date{
+  font-size: .8rem;
+  color: #999;
+  padding-left: .5rem;
+  margin-bottom: .3rem;
+}
+.msg{
+  background: #dfeaf1;
+  width: auto;
+  padding: .6rem .5rem;
+  line-height: 1.3rem;
+  border-radius: .35rem;
+}

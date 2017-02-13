@@ -1,0 +1,12 @@
+
+html, body, :global(#root) {
+
+}
+
+body{
+  background-color: #f7f7f7;
+}
+
+p{
+  margin: .5rem 0;
+}

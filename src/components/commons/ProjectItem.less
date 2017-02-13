@@ -1,0 +1,77 @@
+.section{
+  width: 38%;
+  margin-left: 2%;
+  margin-right: 2%;
+  float: left;
+  padding: 4%;
+  min-height: 26rem;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+}
+.img{
+  width: 14.5rem;
+  height: 14rem;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: .2rem;
+}
+.section:nth-child(1) .img{
+  background-image: url(../../assets/images/createjscc-pic.png)
+}
+.section:nth-child(2) .img{
+  background-image: url(../../assets/images/fenavcom-pic.png)
+}
+.section:nth-child(3) .img{
+  background-image: url(../../assets/images/bloglengziyu-pic.png)
+}
+.section:nth-child(4) .img{
+  background-image: url(../../assets/images/lengziyucom-pic.png)
+}
+.name{
+  font-size: 1.1rem;
+  padding: .4rem 0;
+  font-weight: 600;
+  margin-top: .5rem;
+  margin-bottom: .1rem;
+}
+.url{
+  font-size: .9rem;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+}
+.detail{
+  line-height: 1.1rem;
+  font-size: .9rem;
+  color: #555;
+}
+.date{
+  font-size: .8rem;
+  color: #999;
+  padding-top: .4rem;
+}
+.skillTags{
+  padding-top: .4rem;
+  span{
+    display: inline-block;
+    margin: 2px 4px 2px 0;
+    padding: 4px 5px 5px;
+    font-size: .9rem;
+    line-height: 1;
+    text-transform: lowercase;
+    color: #3e6d8e;
+    background-color: #dfeaf1;
+    border: 0 solid #dfeaf1;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 762px){
+  .section{
+    width: 88%;
+    min-height: 24rem;
+  }
+  .img{
+    width: 100%;
+  }
+}

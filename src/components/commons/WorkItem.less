@@ -1,0 +1,81 @@
+.section{
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    overflow: hidden;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.workHeader{
+  position: relative;
+
+  .workTitle{
+    display: inline-block;
+    background: #fff;
+    padding: 0 1em 0.3em 0;
+    color: #ff6d1f;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    font-size: 1rem;
+    position: relative;
+    z-index: 2;
+  }
+
+&::after {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    height: 1px;
+    background: #ccc;
+    content: "";
+    width: 100%;
+    z-index: 1;
+    display: block;
+  }
+}
+.volunteer{
+  margin-left: 1.67rem;
+
+  .voHeader{
+    font-size: 1rem;
+    overflow: hidden;
+
+    .voLeft{
+      float: left;
+      font-weight: 600;
+      color: #40484f;
+      line-height: 1;
+    }
+
+    .voDate{
+      float: right;
+      padding: .2em;
+      font-size: .9rem;
+    }
+  }
+
+  .summary{
+    font-size: .9rem;
+    margin-bottom: .5em;
+    p{
+      display: block;
+      line-height: 1.5rem;
+      margin-bottom: .6em;
+    }
+  }
+}
+
+.skillTags{
+  span{
+    display: inline-block;
+    margin: 2px 5px 2px 0;
+    padding: 4px 5px 5px;
+    font-size: .9rem;
+    line-height: 1;
+    text-transform: lowercase;
+    color: #3e6d8e;
+    background-color: #dfeaf1;
+    border: 0 solid #dfeaf1;
+    white-space: nowrap;
+  }
+}

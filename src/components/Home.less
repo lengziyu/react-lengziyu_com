@@ -1,0 +1,136 @@
+a {
+    text-decoration: none;
+    color: #45b29a;
+    padding-bottom: .2rem;
+    border-bottom: 1px solid #45b29a;
+}
+a {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.wrap{
+    max-width: 640px;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 3rem 3rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px #ddd;
+    border-radius: 2px;
+}
+
+.avatar{
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  background: url('../assets/images/me.png') no-repeat;
+}
+
+.myname{
+  font-size: 1.5rem;
+}
+
+.details{
+  font-size: 1rem;
+  color: #777;
+  font-weight: 400;
+}
+
+.lists{
+  margin-top: 2rem;
+}
+
+.listsItem{
+  padding-bottom: 2rem
+}
+
+.itemTitle{
+  margin-bottom: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: .75rem;
+  font-size: 1.25rem;
+}
+
+.itemMain{
+  text-align: left;
+  overflow: hidden;
+  p{
+    line-height: 1.75rem;
+  }
+}
+
+.itemMore{
+  font-size: 1rem;
+  text-align: right;
+  float: right;
+}
+
+//作品
+.zp{
+  padding-left: 0;
+  overflow: hidden;
+}
+
+.zp li{
+  width: 46%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.zpImage{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: url('../assets/yay.jpg') no-repeat;
+  background-size: cover;
+}
+.zpTitle{
+  font-size: 1rem;
+  padding: .5rem 0;
+  margin-bottom: .35rem;
+}
+.zpDetail{
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+
+//
+.say li{
+  width: 50%;
+  list-style: circle;
+  float: left;
+  line-height: 2rem;
+}
+
+.jiaoya{
+  margin-top: 1rem;
+}
+
+.other{
+  padding-left: 1rem;
+  margin-left: 0;
+  li{
+    margin-bottom: .5rem;
+    list-style: none;
+    a{
+      border: none;
+    }
+  }
+}
+
+@media (max-width: 762px){
+  .btn {
+      display: inline-block;
+  }
+  .zp li{
+    width: 96%;
+  }
+  .wrap{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
