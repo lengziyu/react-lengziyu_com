@@ -2,8 +2,6 @@
 
 ### 预览
 
-[冷子欲-前端网站](http://lengziyu.com)
-
 ![image](https://raw.githubusercontent.com/lengziyu/react-lengziyu_com/master/mobile.png)
 
 ### 介绍
